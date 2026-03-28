@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: asheesh972/custom-nginx:latest
+    build: .
+    container_name: custom-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - /var/opt/nginx:/var/opt/nginx
+    restart: always

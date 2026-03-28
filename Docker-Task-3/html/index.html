@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ashish Nehra - Custom Nginx</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            max-width: 600px;
+        }
+        h1 { font-size: 42px; color: #00d2ff; margin-bottom: 10px; }
+        .subtitle { color: #a8b2d8; margin-bottom: 30px; }
+        .badges { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0; }
+        .badge { background: #e94560; padding: 8px 16px; border-radius: 20px; font-weight: bold; }
+        .badge.blue { background: #00d2ff; color: #000; }
+        .info { margin-top: 20px; padding: 15px; background: rgba(0,210,255,0.1); border-radius: 10px; border: 1px solid #00d2ff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🐳 Ashish Nehra</h1>
+        <p class="subtitle">Custom Nginx Docker Image on AWS EC2</p>
+        <div class="badges">
+            <span class="badge">Docker</span>
+            <span class="badge blue">Nginx</span>
+            <span class="badge">AWS EC2</span>
+            <span class="badge blue">DockerHub</span>
+        </div>
+        <div class="info">
+            <p>✅ Custom Docker Image</p>
+            <p>✅ Docker Compose Deployed</p>
+            <p>✅ Volume Bind Mount: /var/opt/nginx</p>
+            <p>✅ Pushed to DockerHub</p>
+        </div>
+    </div>
+</body>
+</html>
