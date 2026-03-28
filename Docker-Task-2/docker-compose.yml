@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  website:
+    build: .
+    container_name: ashish-profile-website
+    ports:
+      - "80:80"
+    restart: always
