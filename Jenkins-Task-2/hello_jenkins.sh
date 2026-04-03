@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "=================================="
+echo " Jenkins Auto Build Triggered!"
+echo " Build Number: $BUILD_NUMBER"
+echo " Job Name: $JOB_NAME"
+echo " Build URL: $BUILD_URL"
+echo " Date: $(date)"
+echo " Hostname: $(hostname)"
+echo " Uptime: $(uptime)"
+echo "=================================="
+echo " All systems are working fine!"
+echo "=================================="
